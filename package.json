@@ -1,0 +1,20 @@
+{
+    "name": "check-med-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot for checking med tickets",
+    "main": "lib/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://budet.git"
+    },
+    "author": "“Enity” <“enity.w@gmail.com”>",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "telegraf": "^3.27.1"
+    }
+}
